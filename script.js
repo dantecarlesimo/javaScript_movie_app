@@ -21,7 +21,7 @@ $(function() {
       console.log(data);
       $.each(data["Search"], function (index,movie){
         // console.log(movie["Title"]);
-      $('#results').append("<li data-imdbid = " + movie["imdbID"] +"> " + movie["Title"] + "</li>");
+      $('#results').append("<li class='list-group-item' data-imdbid = " + movie["imdbID"] +"> " + movie["Title"] + "</li>");
       //li.data('imdbid', movie["imdbID"]);---same as adding to li above
       // var movieID = movie["imdbID"];
       // console.log(movieID);

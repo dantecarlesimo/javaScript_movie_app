@@ -1,11 +1,11 @@
-body {
-  font-family: Helvetica;
-  margin:30px;
+li:hover {
+background-color: grey;
+color:white;
+/*width:40%;*/
 }
 
-li:hover {
-background-color: yellow;
-width:40%;
+li{
+  font-size:18px;
 }
 
 #poster {
@@ -17,11 +17,12 @@ width:40%;
 
 #results {
   display: : inline-block;
-  width:50%;
+  width:35%;
   float: left;
   margin-right:20px;
 }
 
 #movieApp {
   margin:40px ;
+  background-color: lightblue;
 }
