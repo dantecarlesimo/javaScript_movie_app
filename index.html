@@ -1,19 +1,29 @@
 <!doctype html>
+
 <head>
   <title>JavaScript Movies</title>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
-<body>
+<body id="movieApp">
 
   <form>
     <input type="text" id="searchTerm">
     <input type="submit" id="searchButton" value="Search">
   </form>
 
-  <h2>Movie Results</h2>
-  <div id="results"><div>
+  <div>
+    <h2>Movie Results</h2>
+    <span id="results" ></span>
+
+    <span id="movieData" >
+      <h2 id="movieTitle"></h2>
+      <p id="moviePlot"></p>
+      <span id="moviePoster"></span>
+    </span>
+  </div>
   
 
 </body>

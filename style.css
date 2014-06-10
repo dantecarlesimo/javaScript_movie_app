@@ -1,8 +1,27 @@
 body {
   font-family: Helvetica;
+  margin:30px;
 }
 
 li:hover {
 background-color: yellow;
+width:40%;
+}
 
+#poster {
+  display: inline-block;
+  width:50%;
+  /*border:3px solid red;*/
+  float: right;
+}
+
+#results {
+  display: : inline-block;
+  width:50%;
+  float: left;
+  margin-right:20px;
+}
+
+#movieApp {
+  margin:40px ;
 }
