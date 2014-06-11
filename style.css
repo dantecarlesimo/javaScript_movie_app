@@ -1,7 +1,6 @@
 li:hover {
 background-color: grey;
 color:white;
-/*width:40%;*/
 }
 
 li{
@@ -11,7 +10,6 @@ li{
 #poster {
   display: inline-block;
   width:50%;
-  /*border:3px solid red;*/
   float: right;
 }
 
